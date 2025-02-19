@@ -1,0 +1,17 @@
+[
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Respond in JSON, describing the image. Break the image down into different properties like camera angle and framing, subjects, characteristics of each subject, objects, characteristics of each object, background, etc."
+            },
+            {
+                "role": "assistant",
+                "content": "{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}"
+            }
+        ],
+        "images": [
+            "14780432.jpg"
+        ]
+    }
+]

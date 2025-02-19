@@ -88,7 +88,7 @@ def main():
 		if config is None:
 			torch.distributed.broadcast_object_list([None, None])
 			return
-		
+
 		# Start
 		wc = omegaconf.OmegaConf.to_container(config, resolve=True)
 		assert isinstance(wc, dict)
@@ -99,7 +99,7 @@ def main():
 
 			if wandb.run.resumed and config.resume is None:
 				raise NotImplementedError("Resuming from a checkpoint is not yet supported")
-			
+
 			# Broadcast the config and run_id to all other processes
 			torch.distributed.broadcast_object_list([config, wandb.run.id])
 
@@ -115,7 +115,7 @@ def main():
 		if config is None or run_id is None:
 			logger.info(f"Rank {distributed_rank()} exiting...")
 			return
-		
+
 		logger.info(f"Rank {distributed_rank()} starting training...")
 		trainer = MainTrainer(config=config, run_id=run_id, logger=logger)
 		trainer.train()
@@ -161,7 +161,7 @@ class MainTrainer:
 		self.total_device_batches = self.total_steps * self.gradient_accumulation_steps
 
 		assert config.batch_size == self.device_batch_size * self.gradient_accumulation_steps * self.world_size, "Batch size must be a multiple of device batch size"
-	
+
 	def build_model(self):
 		# Text Model
 		self.logger.info("Building text model...")
@@ -169,7 +169,7 @@ class MainTrainer:
 		tokenizer = AutoTokenizer.from_pretrained(self.config.finetune, use_fast=True)
 		assert isinstance(tokenizer, PreTrainedTokenizer) or isinstance(tokenizer, PreTrainedTokenizerFast), f"Expected PreTrainedTokenizer, got {type(tokenizer)}"
 
-		model = LlavaForConditionalGeneration.from_pretrained(self.config.finetune, device_map=self.rank, torch_dtype="bfloat16")
+		model = LlavaForConditionalGeneration.from_pretrained(self.config.finetune, device_map='auto', torch_dtype="bfloat16")
 
 		# Enable gradient checkpointing
 		if self.config.gradient_checkpointing:
@@ -193,7 +193,7 @@ class MainTrainer:
 		total_trainable_params = sum(p.numel() for p in self.model.parameters() if p.requires_grad)
 		self.logger.info(f"Total LLM parameters: {total_params:,}")
 		self.logger.info(f"Total LLM trainable parameters: {total_trainable_params:,}")
-		
+
 		self.model_module = self.model
 
 		# Distributed training
@@ -211,7 +211,7 @@ class MainTrainer:
 		for i in range(len(source_ds)):
 			for j in range(len(source_ds[i]['messages'])):
 				source_ds[i]['messages'][j]['content'] = source_ds[i]['messages'][j]['content'].replace("<image>", "").strip()
-		
+
 		# Preprocess all images
 		for example in tqdm(source_ds, desc="Preprocessing images", dynamic_ncols=True, disable=self.rank != 0):
 			assert len(example['images']) == 1
@@ -221,7 +221,7 @@ class MainTrainer:
 			image = image.convert("RGB")
 			pixel_values = TVF.pil_to_tensor(image)
 			example['pixel_values'] = pixel_values
-		
+
 		# Shuffle and split
 		rng = random.Random(self.config.seed)
 		rng.shuffle(source_ds)
@@ -241,10 +241,10 @@ class MainTrainer:
 			image_token_id=self.model.config.image_token_index,
 			image_seq_length=self.model.config.image_seq_length,
 		)
-	
+
 	def build_dataloader(self):
 		self.logger.info("Building dataloader...")
-		
+
 		self.train_sampler = BetterDistributedSampler(
 			self.train_dataset,
 			num_replicas=self.world_size,
@@ -284,7 +284,7 @@ class MainTrainer:
 			pin_memory_device=self.device,
 			collate_fn=self.test_dataset.collate_fn,
 		)
-	
+
 	def build_optimizer(self):
 		self.logger.info("Building optimizer...")
 		self.optimized_params = [{
@@ -301,10 +301,10 @@ class MainTrainer:
 			}
 		else:
 			raise ValueError(f"Unknown optimizer type {self.config.optimizer_type}")
-		
+
 		self.optimizer = optimizer_cls(self.optimized_params, **kwargs)
 		self.optimized_params = list(itertools.chain(*[group['params'] for group in self.optimized_params]))
-	
+
 	def build_lr_scheduler(self):
 		self.logger.info("Building lr scheduler...")
 		num_warmup_steps = int(math.ceil(self.config.warmup_samples / self.config.batch_size))
@@ -329,7 +329,7 @@ class MainTrainer:
 			)
 		else:
 			self.lr_scheduler = get_scheduler(self.config.lr_scheduler_type, self.optimizer, num_warmup_steps, self.total_steps)
-	
+
 	def train(self):
 		# Seed
 		seed = hash((self.config.seed, self.rank)) & 0xffffffff   # NumPy requires 32-bit seeds
@@ -350,7 +350,7 @@ class MainTrainer:
 		# Wandb
 		if self.rank == 0 and self.config.wandb_project is not None:
 			wandb.watch(self.model)
-		
+
 		# Pre-test
 		self.global_step = 0
 		self.global_samples_seen = 0
@@ -378,7 +378,7 @@ class MainTrainer:
 					self.train_sampler.set_epoch(self.train_sampler.epoch + 1)  # This is important to ensure the data is re-shuffled after every use
 					dataloader_iter = iter(self.train_dataloader)
 					batch = next(dataloader_iter)
-				
+
 				is_last_device_step = (device_step + 1) % self.gradient_accumulation_steps == 0
 				is_last_step = (self.global_step + 1) == self.total_steps
 
@@ -390,7 +390,7 @@ class MainTrainer:
 				if torch.isnan(loss) or torch.isinf(loss):
 					self.logger.error(f"Loss is NaN or Inf: {loss}")
 					raise RuntimeError("Loss is NaN or Inf")
-				
+
 				# Backward pass
 				self.scaler.scale(loss).backward() # type: ignore
 
@@ -405,7 +405,7 @@ class MainTrainer:
 					# Clip gradients
 					if self.config.clip_grad_norm is not None:
 						torch.nn.utils.clip_grad.clip_grad_norm_(self.optimized_params, self.config.clip_grad_norm)
-					
+
 					# Take a step
 					self.scaler.step(self.optimizer)
 					self.scaler.update()
@@ -431,11 +431,11 @@ class MainTrainer:
 					# Run every test_every steps and at the end of training
 					if self.test_every_step > 0 and ((self.global_step + 1) % self.test_every_step == 0 or is_last_step):
 						self.do_validation('test', self.test_dataloader, self.test_dataset)
-				
+
 				pbar.update(self.device_batch_size * self.world_size)
-			
+
 			pbar.close()
-	
+
 	def save_checkpoint(self):
 		log_rank_0(self.logger, logging.INFO, "Saving checkpoint...")
 
@@ -454,11 +454,11 @@ class MainTrainer:
 		# Synchonize, so that all ranks are done before we move the checkpoint into place
 		if self.world_size > 1:
 			torch.distributed.barrier()
-		
+
 		# Move checkpoint into place
 		if self.rank == 0:
 			tmp_path.rename(path)
-	
+
 	def run_model(self, batch: dict, reduction: str = 'mean') -> tuple[torch.Tensor, torch.Tensor]:
 		# Move to device
 		pixel_values = batch['pixel_values'].to(self.device, non_blocking=True)
@@ -489,7 +489,7 @@ class MainTrainer:
 
 		if reduction == 'none':
 			loss = loss.reshape(labels.shape[0], labels.shape[1])  # Reshape back to B x len
-		
+
 		if self.rank == 0 and not hasattr(self, 'debug_batch_saved'):
 			torch.save({
 				'input_ids': input_ids,
@@ -501,7 +501,7 @@ class MainTrainer:
 			self.debug_batch_saved = True
 
 		return loss, text_outputs.logits
-	
+
 	@torch.no_grad()
 	def do_validation(self, metric_name: str, dataloader: DataLoader, dataset: "ImageDataset"):
 		log_rank_0(self.logger, logging.INFO, f"Running {metric_name}...")
@@ -520,7 +520,7 @@ class MainTrainer:
 				loss_sum.add_(loss.detach())
 
 				pbar.update(self.device_batch_size * self.world_size)
-			
+
 			pbar.close()
 
 			torch.distributed.all_reduce(loss_sum, op=torch.distributed.ReduceOp.SUM)
@@ -530,7 +530,7 @@ class MainTrainer:
 			# All other ranks are done
 			if self.rank != 0:
 				return
-			
+
 			results = {
 				f"{metric_name}/samples": self.global_samples_seen,
 				f"{metric_name}/loss": loss_sum.item(),
@@ -548,7 +548,7 @@ class ImageDataset(Dataset):
 
 	def __len__(self):
 		return len(self.examples)
-	
+
 	def __getitem__(self, idx: int):
 		pixel_values = self.examples[idx]['pixel_values']
 		messages = self.examples[idx]['messages']
@@ -577,7 +577,7 @@ class ImageDataset(Dataset):
 				input_tokens.extend([self.image_token_id] * self.image_seq_length)
 			else:
 				input_tokens.append(token)
-		
+
 		input_ids = torch.tensor(input_tokens, dtype=torch.long)
 		labels = torch.tensor(input_tokens, dtype=torch.long)
 		attention_mask = torch.ones_like(input_ids)
@@ -599,7 +599,7 @@ class ImageDataset(Dataset):
 			'attention_mask': attention_mask,
 			'labels': labels,
 		}
-	
+
 	def collate_fn(self, batch: list[dict]) -> dict:
 		# Filter out images that failed to load
 		batch = [item for item in batch if item['pixel_values'] is not None]
@@ -634,7 +634,7 @@ class BetterDistributedSampler(DistributedSampler):
 	) -> None:
 		super().__init__(dataset, num_replicas, rank, shuffle, seed, drop_last)
 		self.resume_index = None
-	
+
 	def set_state(self, epoch: int, index: int) -> None:
 		"""
 		Sets the epoch and fast forwards the iterator to the given index.
@@ -650,7 +650,7 @@ class BetterDistributedSampler(DistributedSampler):
 			for _ in range(self.resume_index):
 				next(i)
 			self.resume_index = None
-		
+
 		return i
 
 
