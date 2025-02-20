@@ -250,7 +250,7 @@ class MainTrainer:
 			num_replicas=self.world_size,
 			rank=self.rank,
 			shuffle=True,
-			drop_last=True,
+			drop_last=False,
 			seed=self.config.seed
 		)
 
