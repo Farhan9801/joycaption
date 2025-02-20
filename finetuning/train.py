@@ -169,7 +169,7 @@ class MainTrainer:
 		tokenizer = AutoTokenizer.from_pretrained(self.config.finetune, use_fast=True)
 		assert isinstance(tokenizer, PreTrainedTokenizer) or isinstance(tokenizer, PreTrainedTokenizerFast), f"Expected PreTrainedTokenizer, got {type(tokenizer)}"
 
-		model = LlavaForConditionalGeneration.from_pretrained(self.config.finetune, device_map='auto', torch_dtype="bfloat16")
+		model = LlavaForConditionalGeneration.from_pretrained(self.config.finetune, device_map=self.rank, torch_dtype="bfloat16")
 
 		# Enable gradient checkpointing
 		if self.config.gradient_checkpointing:
