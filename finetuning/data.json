@@ -28,5 +28,965 @@
         "images": [
             "1.jpeg"
         ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars, with floral runner on front and back beam\",\n  \"Fabric\": \"Yellow crape - 70mtrs, White crepe - 60mtrs\",\n  \"Flowers\": \"Yellow marigold Maar - 16maar, Orange marigold Maar - 16maar, White crysanthmum - 16bunch, Yellow rose - 12bunches, Asparagus - 8bunches, Loose yellow marigold - 4kgs, Loose orange marigold - 4kgs, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka Stand 2sets\",\n  \"Stage\": \"Stage 10*10 (1.5ft Height)\"\n}\n```"
+            }
+        ],
+        "images": [
+            "14780432.jpeg"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+            },
+            {
+                "role": "assistant",
+                "content": "```json\n{\n  \"Discription\": \"Size - 10*10 with fabric curtains for all pillars and 7 floral bunches in the front beam\",\n  \"Fabric\": \"Dull gold crepe - 56mtrs, White chiffon - 24mtrs, Red crepe - 28mtrs, White Crepe - 16mtrs\",\n  \"Flowers\": \"White Hydrenga - 35nos, Light pink Chrysanthmum - 3bunches, Oasis Foam - 1box, Mess roll\",\n  \"Structure\": \"Pole structure 8ft - 4nos, Beam rod 10ft - 4nos\",\n  \"Props\": \"Matka stand 4nos, Big stool 2nos, Regular stool 2nos\",\n  \"Stage\": \"\"\n}\n```"
+            }
+        ],
+        "images": [
+            "1.jpeg"
+        ]
     }
 ]

@@ -39,7 +39,7 @@ class Config:
 	output_dir: Path = Path("checkpoints")               # Output directory
 	wandb_project: Optional[str] = None                  # Wandb project
 	device_batch_size: int = 1                           # Device batch size
-	batch_size: int = 1                                 # Actual batch size; gradient accumulation is used on device_batch_size to achieve this
+	batch_size: int = 32                                 # Actual batch size; gradient accumulation is used on device_batch_size to achieve this
 	learning_rate: float = 5e-5                          # Learning rate
 
 	warmup_samples: int = 0                              # Warmup samples
@@ -65,7 +65,7 @@ class Config:
 	images_path: Path = Path("../data/resized-384-squish")   # Images path
 	finetune: str = "fancyfeast/llama-joycaption-alpha-two-hf-llava"   # Model to finetune from
 	gradient_checkpointing: bool = True                  # Use gradient checkpointing
-	test_size: int = 1                                 # Test size
+	test_size: int = 128                                 # Test size
 	grad_scaler_init: float = 2**16                      # Initial grad scaler
 
 	text_model_dtype: str = "bfloat16"                   # Text model dtype
@@ -169,7 +169,7 @@ class MainTrainer:
 		tokenizer = AutoTokenizer.from_pretrained(self.config.finetune, use_fast=True)
 		assert isinstance(tokenizer, PreTrainedTokenizer) or isinstance(tokenizer, PreTrainedTokenizerFast), f"Expected PreTrainedTokenizer, got {type(tokenizer)}"
 
-		model = LlavaForConditionalGeneration.from_pretrained(self.config.finetune, device_map='auto', torch_dtype="bfloat16")
+		model = LlavaForConditionalGeneration.from_pretrained(self.config.finetune, device_map=self.rank, torch_dtype="bfloat16")
 
 		# Enable gradient checkpointing
 		if self.config.gradient_checkpointing:
@@ -250,7 +250,7 @@ class MainTrainer:
 			num_replicas=self.world_size,
 			rank=self.rank,
 			shuffle=True,
-			drop_last=False,
+			drop_last=True,
 			seed=self.config.seed
 		)
 
@@ -269,7 +269,7 @@ class MainTrainer:
 			sampler=self.train_sampler,
 			num_workers=self.config.num_workers,
 			pin_memory=True,
-			drop_last=False,
+			drop_last=True,
 			pin_memory_device=self.device,
 			collate_fn=self.train_dataset.collate_fn,
 		)
@@ -383,7 +383,6 @@ class MainTrainer:
 				is_last_step = (self.global_step + 1) == self.total_steps
 
 				# Forward pass
-				batch = {k: v.to(torch.float32).requires_grad_() if v.dtype in (torch.float16, torch.bfloat16, torch.float32) else v for k, v in batch.items()}
 				loss, _ = self.run_model(batch)
 				loss = loss / self.gradient_accumulation_steps
 				loss_sum.add_(loss.detach())
