@@ -445,9 +445,21 @@ class MainTrainer:
 		tmp_path.mkdir(parents=True, exist_ok=True)
 
 		if self.rank == 0:
+			self.logger.info(f"Creating temporary directory: {tmp_path / 'model'}")
+			(tmp_path / "model").mkdir(parents=True, exist_ok=True)  # Ensure the directory exists
 			self.logger.info(f"Saving model to temporary directory: {tmp_path / 'model'}")
-			self.model.save_pretrained(tmp_path / "model")
-			self.logger.info(f"Model saved to temporary directory: {tmp_path / 'model'}")
+
+			# Add try-except block here
+			try:
+				self.model.save_pretrained(tmp_path / "model")
+				self.logger.info(f"Model saved to temporary directory: {tmp_path / 'model'}")
+			except Exception as e:
+				self.logger.error(f"Failed to save model: {e}")
+				return  # Exit the function if saving fails
+
+			# Verify temporary directory contents
+			tmp_files = list((tmp_path / "model").glob("*"))
+			self.logger.info(f"Temporary directory contents: {tmp_files}")
 
 		# Synchronize processes
 		if self.world_size > 1:
@@ -456,8 +468,15 @@ class MainTrainer:
 		# Move checkpoint into place
 		if self.rank == 0:
 			self.logger.info(f"Moving checkpoint from {tmp_path} to {path}")
-			tmp_path.rename(path)
-			self.logger.info(f"Checkpoint moved to {path}")
+			try:
+				tmp_path.rename(path)
+				self.logger.info(f"Checkpoint moved to {path}")
+			except Exception as e:
+				self.logger.error(f"Failed to move checkpoint: {e}")
+
+			# Verify final directory contents
+			final_files = list(path.glob("*"))
+			self.logger.info(f"Final directory contents: {final_files}")
 
 	def run_model(self, batch: dict, reduction: str = 'mean') -> tuple[torch.Tensor, torch.Tensor]:
 		# Move to device
