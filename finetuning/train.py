@@ -383,6 +383,7 @@ class MainTrainer:
 				is_last_step = (self.global_step + 1) == self.total_steps
 
 				# Forward pass
+				batch = {k: v.to(torch.float32).requires_grad_() if v.dtype in (torch.float16, torch.bfloat16, torch.float32) else v for k, v in batch.items()}
 				loss, _ = self.run_model(batch)
 				loss = loss / self.gradient_accumulation_steps
 				loss_sum.add_(loss.detach())
