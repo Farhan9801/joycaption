@@ -65,7 +65,7 @@ class Config:
 	images_path: Path = Path("../data/resized-384-squish")   # Images path
 	finetune: str = "fancyfeast/llama-joycaption-alpha-two-hf-llava"   # Model to finetune from
 	gradient_checkpointing: bool = True                  # Use gradient checkpointing
-	test_size: int = 128                                 # Test size
+	test_size: int = 1                                 # Test size
 	grad_scaler_init: float = 2**16                      # Initial grad scaler
 
 	text_model_dtype: str = "bfloat16"                   # Text model dtype
