@@ -439,25 +439,25 @@ class MainTrainer:
 	def save_checkpoint(self):
 		log_rank_0(self.logger, logging.INFO, "Saving checkpoint...")
 
-		#sampler_epoch = self.train_sampler.epoch
-		sampler_index = self.global_samples_seen // self.world_size  # NOTE: sampler_index is in terms of "samples", not batches or steps
-		sampler_index = sampler_index % (len(self.train_dataloader) * self.device_batch_size)
-
 		base_path = self.config.output_dir / self.run_id
 		path = base_path / f"samples_{self.global_samples_seen}"
 		tmp_path = base_path / "tmp"
 		tmp_path.mkdir(parents=True, exist_ok=True)
 
 		if self.rank == 0:
+			self.logger.info(f"Saving model to temporary directory: {tmp_path / 'model'}")
 			self.model.save_pretrained(tmp_path / "model")
+			self.logger.info(f"Model saved to temporary directory: {tmp_path / 'model'}")
 
-		# Synchonize, so that all ranks are done before we move the checkpoint into place
+		# Synchronize processes
 		if self.world_size > 1:
 			torch.distributed.barrier()
 
 		# Move checkpoint into place
 		if self.rank == 0:
+			self.logger.info(f"Moving checkpoint from {tmp_path} to {path}")
 			tmp_path.rename(path)
+			self.logger.info(f"Checkpoint moved to {path}")
 
 	def run_model(self, batch: dict, reduction: str = 'mean') -> tuple[torch.Tensor, torch.Tensor]:
 		# Move to device
