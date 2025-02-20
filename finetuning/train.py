@@ -39,7 +39,7 @@ class Config:
 	output_dir: Path = Path("checkpoints")               # Output directory
 	wandb_project: Optional[str] = None                  # Wandb project
 	device_batch_size: int = 1                           # Device batch size
-	batch_size: int = 32                                 # Actual batch size; gradient accumulation is used on device_batch_size to achieve this
+	batch_size: int = 1                                 # Actual batch size; gradient accumulation is used on device_batch_size to achieve this
 	learning_rate: float = 5e-5                          # Learning rate
 
 	warmup_samples: int = 0                              # Warmup samples
@@ -269,7 +269,7 @@ class MainTrainer:
 			sampler=self.train_sampler,
 			num_workers=self.config.num_workers,
 			pin_memory=True,
-			drop_last=True,
+			drop_last=False,
 			pin_memory_device=self.device,
 			collate_fn=self.train_dataset.collate_fn,
 		)
