@@ -3,7 +3,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -18,7 +18,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -33,7 +33,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -48,7 +48,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -63,7 +63,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -78,7 +78,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -93,7 +93,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -108,7 +108,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -123,7 +123,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -138,7 +138,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -153,7 +153,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -168,7 +168,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -183,7 +183,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -198,7 +198,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -213,7 +213,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -228,7 +228,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -243,7 +243,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -258,7 +258,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -273,7 +273,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -288,7 +288,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -303,7 +303,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -318,7 +318,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -333,7 +333,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -348,7 +348,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -363,7 +363,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -378,7 +378,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -393,7 +393,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -408,7 +408,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -423,7 +423,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -438,7 +438,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -453,7 +453,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -468,7 +468,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -483,7 +483,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -498,7 +498,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -513,7 +513,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -528,7 +528,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -543,7 +543,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -558,7 +558,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -573,7 +573,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
@@ -588,7 +588,7 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n### **Rules to Follow:**  \n1. **Ignore People:** If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. **Structured Output:** Return the response in a clean, numbered list format.  \n3. **Item Counting:** If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write **\"Basket(3)\"** instead of just \"Basket.\"  \n4. **Maintain Clarity:** Use simple and precise object names."
+                "content": "Task: Analyze the image and generate a list of decorative items present.\n\n Rules to Follow:  \n1. Ignore People: If any person/people are present in the image, do NOT mention them. Only focus on décor elements.  \n2. Structured Output: Return the response in a clean, numbered list format.  \n3. Item Counting: If multiple instances of the same item are present, include the count in parentheses.  \n   - Example: If there are three baskets, write \"Basket(3)\" instead of just \"Basket.\"  \n4. Maintain Clarity: Use simple and precise object names."
             },
             {
                 "role": "assistant",
